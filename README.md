@@ -18,7 +18,6 @@ chmod 777 install_ps5_server.sh
 
 # You can also create a service to run the host on boot
 
-Note that you may have to change the user name
 
 <br>
 
@@ -29,7 +28,7 @@ sudo nano /etc/systemd/system/ps5host.service
 <br>
 
 Paste the following into the newly created file: 
-
+Note that you may have to change the user name
 <br>
 
 ```sh
@@ -47,7 +46,6 @@ WantedBy=multi-user.target
 <br>
 
 And now start and enable the service: 
-
 <br>
 
 ```sh

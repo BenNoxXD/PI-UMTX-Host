@@ -28,7 +28,7 @@ sudo nano /etc/systemd/system/ps5host.service
 <br>
 
 Paste the following into the newly created file: 
-Note that you may have to change the user name
+Note that you may have to change the user name.
 <br>
 
 ```sh

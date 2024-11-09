@@ -36,7 +36,7 @@ Paste the following into the newly created file:
 Description=PS5 UMTX Host idlesauce
 
 [Service]
-WorkingDirectory=/home/pi/PS5-UMTX-Jailbreak/
+WorkingDirectory=/home/pi/PI-UMTX-Host/PS5-UMTX-Jailbreak/
 ExecStart=/usr/bin/python3 simple_server.py
 
 [Install]

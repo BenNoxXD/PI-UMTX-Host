@@ -4,9 +4,10 @@ sudo apt-get install python -y
 # remove old version
 sudo systemctl stop ps5host
 sudo systemctl disable ps5host
-sudo rm -r /PS5-UMTX-Jailbreak/
+rm /etc/systemd/system/ps5host.service
+cd /home
+sudo rm -r /PS5-UMTX-Jailbreak
 # download new version
-cd /home/
 git clone https://github.com/idlesauce/PS5-UMTX-Jailbreak
 cd PS5-UMTX-Jailbreak
 wget https://raw.githubusercontent.com/idlesauce/PS5-Exploit-Host/refs/heads/main/simple_server.py

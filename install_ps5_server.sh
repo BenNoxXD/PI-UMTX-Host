@@ -26,3 +26,4 @@ EOF
 # enable the service
 sudo systemctl start ps5host
 sudo systemctl enable ps5host
+sudo reboot

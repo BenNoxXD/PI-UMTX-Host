@@ -6,7 +6,7 @@ sudo systemctl stop ps5host
 sudo systemctl disable ps5host
 rm /etc/systemd/system/ps5host.service
 cd /usr/local
-sudo rm -r /PS5-UMTX-Jailbreak
+sudo rm -r PS5-UMTX-Jailbreak
 # download new version
 git clone https://github.com/idlesauce/PS5-UMTX-Jailbreak
 cd PS5-UMTX-Jailbreak

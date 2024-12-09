@@ -1,6 +1,6 @@
 # install dependencies
 sudo apt-get install git -y
-sudo apt-get install python -y
+sudo apt-get install python3 -y
 # remove old version
 sudo systemctl stop ps5host
 sudo systemctl disable ps5host

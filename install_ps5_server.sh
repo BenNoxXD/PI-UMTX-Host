@@ -11,6 +11,10 @@ sudo rm -r /PS5-UMTX-Jailbreak
 git clone https://github.com/idlesauce/PS5-UMTX-Jailbreak
 cd PS5-UMTX-Jailbreak
 wget https://raw.githubusercontent.com/idlesauce/PS5-Exploit-Host/refs/heads/main/simple_server.py
+cd /document/en/ps5
+rm -r payloads
+rm payload_map.js
+git clone https://github.com/BenNoxXD/PI-UMTX-Host/
 # create a service for autostart
 cat > /etc/systemd/system/ps5host.service <<- "EOF"
 [Unit]

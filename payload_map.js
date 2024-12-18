@@ -26,27 +26,18 @@ const payload_map = [
     //     fileName: "elfldr.elf",
     //     author: "john-tornblom",
     //     projectSource: "https://github.com/ps5-payload-dev/elfldr",
-    //     binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/11597570082",
+    //     binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/12381364468",
     //     version: "?",
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
-    /*{
-        displayTitle: "ps5-kstuff",
-        description: "FPKG enabler",
-        fileName: "ps5-kstuff.bin",
-        author: "sleirsgoevy",
-        projectSource: "https://github.com/sleirsgoevy/ps4jb-payloads/tree/bd-jb/ps5-kstuff",
-        binarySource: "https://github.com/sleirsgoevy/ps4jb2/blob/3e6053c3e4c691a9ccdc409172293a81de00ad7f/ps5-kstuff.bin",
-        version: "3e6053c",
-        supportedFirmwares: ["3.", "4."]
-    },*/
+    
     {
         displayTitle: "websrv",
         description: "Uses john-tornblom's elfldr. Custom homebrew loader. Runs on port 8080.",
         fileName: "websrv.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/websrv/releases",
-        binarySource: "https://github.com/ps5-payload-dev/websrv/releases",
+        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/12381364468",
         version: "0.14",
         toPort: 9021
     },
@@ -56,7 +47,7 @@ const payload_map = [
         fileName: "ftpsrv.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/ftpsrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/11597570082",
+        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/12381364468",
         version: "0.11",
         toPort: 9021
     },
@@ -66,7 +57,7 @@ const payload_map = [
         fileName: "klogsrv.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/klogsrv/releases",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/11597570082",
+        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/12381364468",
         version: "0.5",
         toPort: 9021
     },
@@ -76,7 +67,7 @@ const payload_map = [
         fileName: "shsrv.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/shsrv/releases",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/11597570082",
+        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/12381364468",
         version: "0.12",
         toPort: 9021
     },
@@ -86,7 +77,7 @@ const payload_map = [
         fileName: "gdbsrv.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/gdbsrv/releases",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/11597570082",
+        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/12381364468",
         version: "0.4-1",
         toPort: 9021
     },
@@ -111,11 +102,12 @@ const payload_map = [
         supportedFirmwares: ["1.", "2.", "3.", "4."]
     },
     {
+        // https://github.com/Storm21CH/PS5_Browser_appCache_remove
         displayTitle: "Browser appcache remover",
         description: "Deletes for only the current user in webkit-only mode",
         fileName: "",
         author: "Storm21CH, idlesauce",
-        projectSource: "https://github.com/Storm21CH/PS5_Browser_appCache_remove",
+        projectSource: "",
         binarySource: "",
         version: "1.0",
         customAction: CUSTOM_ACTION_APPCACHE_REMOVE

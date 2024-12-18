@@ -14,7 +14,7 @@ curl -s https://raw.githubusercontent.com/BenNoxXD/PI-UMTX-Host/refs/heads/main/
 
 
 ## Docker
-# You can also run is bundled in a Docker Container
+You can also run is bundled it a Docker Container
 
 <br>
 

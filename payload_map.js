@@ -83,12 +83,13 @@ const payload_map = [
     },
     {
         displayTitle: "ps5debug",
-        description: "Debugger, open source version by DizzRL",
-        fileName: "ps5debug_dizz.elf",
-        author: "Dizz, astrelsky, John Tornblom, SiSTR0, golden, idlesauce",
-        projectSource: "https://github.com/idlesauce/ps5debug",
-        binarySource: "https://github.com/idlesauce/ps5debug/releases/download/v0.0.1/ps5debug.elf",
-        version: "0.0.1",
+        description: "Debugger (Experimental beta)",
+        fileName: "ps5debug_v1.0b2.elf",
+        author: "SiSTR0, ctn123",
+        projectSource: "https://github.com/GoldHEN/ps5debug",
+        binarySource: "https://github.com/GoldHEN/ps5debug/releases/download/1.0b2/ps5debug_v1.0b2.elf",
+        version: "1.0b2",
+        supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
     {

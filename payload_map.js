@@ -93,6 +93,16 @@ const payload_map = [
         toPort: 9021
     },
     {
+        displayTitle: "redis-server",
+        description: "Connect to the PS5's Redis Server",
+        fileName: "redis.elf",
+        author: "Euro Ali",
+        projectSource: "",
+        binarySource: "https://github.com/crump-youtube/PS5_JB_Archive/tree/main/REDIS",
+        version: "1.0",
+        toPort: 9021
+    },
+    {
         displayTitle: "ps5-versions",
         description: "Shows kernel build, os and sdk versions",
         fileName: "ps5-versions.elf",
